@@ -55,7 +55,7 @@ from scipy.io import wavfile
 
 
 # directory exploration
-train_audio_path = r'/home/agamjeet/for/for-2seconds/training'
+train_audio_path = r'/home/agamjeet/for/for-2seconds/training' #what folder?
 
 dirs = [f for f in os.listdir(train_audio_path) if isdir(join(train_audio_path, f))]
 
